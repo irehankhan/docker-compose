@@ -1,0 +1,5 @@
+#Pull Base image from Docker
+FROM redis
+
+# Run redis server
+CMD ["redis-server"]
